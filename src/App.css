@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.list-container {
+  width: 100%;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s ease;
+}
+
+.list li:hover {
+  background: #e9ecef;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button {
+  background: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+.edit-button {
+  background: #ffc107;
+  color: white;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background: #f44336;
+  color: white;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.country-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.city-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.state-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.button-group {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .App {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
