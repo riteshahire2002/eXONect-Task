@@ -1,8 +1,4 @@
-# React + Vite
+It is an Assignment for me by a Company eXONect. In this project I developed the components which manages the changes in Country, City, State like adding, deleting and editing.
+I deployed it on Vercel you can check the live preview of the App.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://exonecttask-ntc24ub40-ritesh-ahires-projects.vercel.app/
